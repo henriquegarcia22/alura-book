@@ -1,4 +1,3 @@
-
 .cabeçalho {
   background-color: var(--branco);
   display: flex;
@@ -14,7 +13,6 @@
   background-repeat: no-repeat;
   background-position: center;
   }
-  
   .container {
   display: flex;
   align-items: center;
@@ -23,17 +21,15 @@
   .container__imagem {
   padding: 1em;
   }
-  
   .lista-menu {
   display: none;
   position: absolute;
   top: 100%;
-  width: 60vw;
+  width: 100vw;
   }
   .container__botao:checked ~ .lista-menu {
   display: block;
   }
-  
   .lista-menu__titulo,
   .lista-menu__item {
   padding: 1em;
@@ -51,5 +47,5 @@
   text-transform: uppercase;
   }
   .container__botao {
-  display: nome;
+  display: none;
   }
